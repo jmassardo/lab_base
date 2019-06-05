@@ -14,5 +14,4 @@ run_list 'lab_base::default'
 
 # Specify a custom source for a single cookbook:
 cookbook 'lab_base', path: '.'
-# cookbook 'all_systems', path: '../all_systems'
-# cookbook 'cis-baseline', path: '../cis-baseline'
+cookbook 'cis-baseline', git: 'https://github.com/jmassardo/cis-baseline.git'

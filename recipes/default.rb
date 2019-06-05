@@ -4,4 +4,6 @@
 #
 # Copyright:: 2019, The Authors, All Rights Reserved.
 
-# include_recipe 'all_systems::default'
+include_recipe 'chef-client::default'
+include_recipe 'audit::default'
+include_recipe 'cis-baseline::default'
