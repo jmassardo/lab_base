@@ -1,4 +1,3 @@
 # lab_base
 
-TODO: Enter the cookbook description here.
-
+This is a demonstrator cookbook for using Chef policyfiles in Jenkins pipelines.

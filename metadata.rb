@@ -1,21 +1,21 @@
 name 'lab_base'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'James Massardo'
+maintainer_email 'james@dxrf.com'
 license 'All Rights Reserved'
 description 'Installs/Configures lab_base'
 long_description 'Installs/Configures lab_base'
 version '0.1.1'
 chef_version '>= 13.0'
-
+supports 'ubuntu'
 # depends 'all_systems'
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
 # uploaded to a Supermarket.
 #
-# issues_url 'https://github.com/<insert_org_here>/lab_base/issues'
+issues_url 'https://github.com/jmassardo/lab_base/issues'
 
 # The `source_url` points to the development repository for this cookbook.  A
 # `View Source` link will be displayed on this cookbook's page when uploaded to
 # a Supermarket.
 #
-# source_url 'https://github.com/<insert_org_here>/lab_base'
+source_url 'https://github.com/jmassardo/lab_base'
